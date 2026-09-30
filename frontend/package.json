@@ -1,0 +1,33 @@
+{
+  "name": "zhuatech-procureflow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "知华科技供应商寻源与报价协同公开源码学习版 / Supplier sourcing and quotation collaboration",
+  "author": "上海如静知华信息科技有限公司",
+  "homepage": "https://www.zhuatech.cn/",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "engines": {
+    "node": ">=24.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "lint": "eslint src vite.config.js",
+    "format": "prettier --write src vite.config.js index.html package.json",
+    "format:check": "prettier --check src vite.config.js index.html package.json",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "vue": "3.5.40",
+    "@lucide/vue": "1.48.0"
+  },
+  "devDependencies": {
+    "vite": "8.1.5",
+    "@vitejs/plugin-vue": "6.0.8",
+    "eslint": "10.11.0",
+    "eslint-plugin-vue": "10.11.1",
+    "globals": "16.5.0",
+    "prettier": "3.9.9"
+  },
+  "type": "module"
+}
